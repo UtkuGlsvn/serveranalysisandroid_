@@ -20,7 +20,7 @@ public class About extends AppCompatActivity {
         dashboardIntent.putExtra("token",token);
         dashboardIntent.putExtra("username",username);
         dashboardIntent.putExtra("serverIP",getIntent().getExtras().getString("serverIP"));
-
+//deneme
         startActivity(dashboardIntent);//contexti ref göstererek başlattım.
         finish(); //bu aktiviteyi kapat
 
